@@ -51,7 +51,7 @@ DailyAPI/
 
 首次使用或更新依赖后，可运行 `setup.bat` 自动安装所需依赖（需已安装 Node.js、Python 和 git）：
 
-![](setup.bat)
+![setup.bat](setup.bat)
 
 ---
 
@@ -117,7 +117,7 @@ pip install -r requirements.txt
 
 项目提供了 `start.bat`，双击后会在后台同时启动服务端和客户端，**无任何命令行窗口**。
 
-![](start.bat)
+![start.bat](start.bat)
 
 ## 客户端操作说明
 
@@ -167,5 +167,5 @@ pip install -r requirements.txt
 
 ## 致谢
 
-- [DailyHotApi](https://github.com/kuole-o/dailyhot-api) 提供了强大的聚合接口支持。
+- [dailyhot-api](https://github.com/kuole-o/dailyhot-api) 提供了强大的聚合接口支持。
 - [PySide6](https://wiki.qt.io/Qt_for_Python) 提供了优秀的 GUI 框架。
