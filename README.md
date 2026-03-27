@@ -2,7 +2,7 @@
 
 DailyAPI 是一个聚合了多平台实时热搜的桌面应用项目。它由两部分组成：
 
-- **dailyhot-api**：基于 [DailyHotApi](https://github.com/imsyy/DailyHotApi) 修改的 Node.js 服务端，提供哔哩哔哩、微博、知乎、贴吧等多个平台的热搜数据接口。
+- **dailyhot-api**：基于 [dailyhot-api](https://github.com/kuole-o/dailyhot-api) 修改的 Node.js 服务端，提供哔哩哔哩、微博、知乎、贴吧等多个平台的热搜数据接口。
 - **desktopWidgets**：基于 PySide6 的 Windows 桌面小部件，以卡片形式展示热搜列表，支持自动刷新、折叠、拖拽、托盘等便捷功能。
 
 ## 特性
@@ -60,7 +60,7 @@ DailyAPI/
 进入 `dailyhot-api` 目录，安装依赖：
 
 ```bash
-git clone https://github.com/imsyy/DailyAPI.git
+git clone https://github.com/kuole-o/dailyhot-api.git
 cd dailyhot-api
 npm install
 ```
@@ -162,10 +162,10 @@ pip install -r requirements.txt
 ## 许可证
 
 本项目整体采用 MIT 许可证。
-服务端部分基于 [imsyy/DailyHotApi](https://github.com/imsyy/DailyHotApi) 修改，其原始许可证为 MIT。
+服务端部分基于 [kuole-o/dailyhot-api](https://github.com/kuole-o/dailyhot-api) 修改，其原始许可证为 MIT。
 客户端部分代码同样使用 MIT 许可证。详情请参阅各子目录下的 `LICENSE` 文件（如有）。
 
 ## 致谢
 
-- [DailyHotApi](https://github.com/imsyy/DailyHotApi) 提供了强大的聚合接口支持。
+- [DailyHotApi](https://github.com/kuole-o/dailyhot-api) 提供了强大的聚合接口支持。
 - [PySide6](https://wiki.qt.io/Qt_for_Python) 提供了优秀的 GUI 框架。
