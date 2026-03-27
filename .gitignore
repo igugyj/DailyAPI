@@ -1,0 +1,6 @@
+dailyhot-api
+**/__pycache__
+**/.idea
+**/.vscode
+**/.venv
+**/origin_test/**.json

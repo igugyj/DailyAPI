@@ -1,0 +1,65 @@
+{
+    "window": {
+        "width": 320,
+        "height": 520,
+        "x": 80,
+        "y": 120,
+        "opacity": 0.92
+    },
+    "refresh_interval": 600,
+    "api_base": "http://127.0.0.1:6688",
+    "platforms": {
+        "bilibili": {
+            "name": "哔哩哔哩",
+            "endpoint": "/bilibili"
+        },
+        "tieba": {
+            "name": "贴吧",
+            "endpoint": "/tieba"
+        },
+        "weibo": {
+            "name": "微博",
+            "endpoint": "/weibo"
+        },
+        "zhihu": {
+            "name": "知乎",
+            "endpoint": "/zhihu"
+        }
+    },
+    "theme": {
+        "bg_color": "20, 20, 35",
+        "bg_alpha": 210,
+        "header_color": "25, 25, 45",
+        "header_alpha": 230,
+        "card_radius": 14,
+        "active_tab_color": "#e94560",
+        "inactive_tab_color": "rgba(255,255,255,0.45)",
+        "item_hover_bg": "rgba(255,255,255,0.07)",
+        "rank1_color": "#ff4444",
+        "rank2_color": "#ff8800",
+        "rank3_color": "#ffbb00",
+        "rank_default_color": "rgba(255,255,255,0.35)",
+        "title_color": "#f0f0f0",
+        "hot_color": "rgba(255,255,255,0.45)",
+        "sep_color": "rgba(255,255,255,0.06)",
+        "font_family": "Microsoft YaHei, PingFang SC, sans-serif",
+        "font_size_tab": 12,
+        "font_size_item": 12,
+        "font_size_hot": 10
+    },
+    "collapsed_button": {
+        "width": 48,
+        "height": 48,
+        "bg_color": "20, 20, 35",
+        "bg_alpha": 220,
+        "radius": 24
+    },
+    "logging": {
+        "enabled": false,
+        "file": "error.log"
+    },
+    "tray": {
+        "icon": "",
+        "tooltip": "DailyAPI"
+    }
+}
